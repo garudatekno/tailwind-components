@@ -28,7 +28,7 @@ class TailwindComponentsServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'components');
 
         $this->publishes([
-            __DIR__.'/../resources/views/components' => resource_path('views/vendor/components'),
+            __DIR__.'/../resources/views/components' => resource_path('views/components'),
         ]);
     }
 }
