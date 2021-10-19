@@ -1,0 +1,23 @@
+{
+    "name": "garudatekno/tailwind-components",
+    "description": "Tailwind components to be used on Garuda Tekno projects",
+    "authors": [
+        {
+            "name": "Aman Rohiman",
+            "email": "aman.rohiman@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GarudaTekno\\TailwindComponents\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GarudaTekno\\TailwindComponents\\Providers\\TailwindComponentsServiceProvider"
+            ]
+        }
+    }
+}
