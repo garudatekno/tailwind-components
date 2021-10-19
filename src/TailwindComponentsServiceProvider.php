@@ -1,6 +1,6 @@
 <?php
 
-namespace GarudaTekno\TailwindComponents\Providers;
+namespace Garudatekno\TailwindComponents\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

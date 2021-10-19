@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "GarudaTekno\\TailwindComponents\\Providers\\TailwindComponentsServiceProvider"
+                "Garudatekno\\TailwindComponents\\Providers\\TailwindComponentsServiceProvider"
             ]
         }
     }
