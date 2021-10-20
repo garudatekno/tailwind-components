@@ -11,7 +11,7 @@
 
 @if($errors->has($model))
     @props([
-        'inputId'=>'',
+        'input Id'=>'',
         'label'=>'',
         'inputType'=>'vertical',
         'type'=>'text',
@@ -22,7 +22,7 @@
         'required'=>'',
         'leadingText'=>'',
     ])
-@else   
+@else
     @props([
         'inputId'=>'',
         'label'=>'',
